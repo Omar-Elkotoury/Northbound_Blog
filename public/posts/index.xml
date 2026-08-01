@@ -9,20 +9,6 @@
     <lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://example.org/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Code Syntax Guide</title>
-      <link>https://example.org/posts/code_syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/code_syntax/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
       <title>Obsidian Quick Guide</title>
       <link>https://example.org/posts/obsidian-quick-guide/</link>
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
@@ -83,46 +69,16 @@ Your notes belong to you. Obsidian never locks your data into a proprietary form
 &lt;p&gt;Download from &lt;a href=&#34;https://obsidian.md&#34;&gt;https://obsidian.md&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Audio and Video</title>
-      <link>https://example.org/posts/audio-video/</link>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/audio-video/</guid>
-      <description>Learn how to embed audio and video in your hugo site using shortcodes and HTML.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide For L2</title>
-      <link>https://example.org/posts/markdown-syntax.fr/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/markdown-syntax.fr/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide For RTL</title>
-      <link>https://example.org/posts/markdown-syntax.fa/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/markdown-syntax.fa/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Rich Content and Shortcodes</title>
-      <link>https://example.org/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://example.org/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>https://example.org/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
+      <title>omar</title>
+      <link>https://example.org/posts/omar/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/omar/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A student focused on learning, building systems, and continuously improving skills through technology.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m Omar, a student with a strong interest in technology, productivity, and self-improvement. I enjoy understanding how things work, whether it&amp;rsquo;s operating systems, networking, AI, or software development. I prefer learning by building projects and creating organized knowledge that I can reuse later.&lt;/p&gt;
+&lt;p&gt;I value simplicity, clarity, and efficiency. Rather than collecting information, I prefer turning it into structured notes, documentation, and practical workflows. My goal is to create systems that help me learn faster and work smarter.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
