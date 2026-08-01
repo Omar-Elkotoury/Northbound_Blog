@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Obsidian Quick Guide | Northbound Blog</title>
+<meta name="keywords" content="blog, omar">
+<meta name="description" content="Table of Contents
+
+Introduction
+Installation
+Interface
+Markdown Essentials
+Linking Knowledge
+Plugins &amp; Workflow
+Best Practices
+
+1. Introduction
+
+Obsidian is a local-first knowledge management application built around Markdown files. Every note is stored as a plain .md file, ensuring your knowledge remains portable, future-proof, and independent of any proprietary cloud platform.
+
+[!NOTE]
+Your notes belong to you. Obsidian never locks your data into a proprietary format.
+
+Key Features
+
+	
+			
+					Feature
+					Benefit
+			
+	
+	
+			
+					Local Markdown
+					Own your data
+			
+			
+					Wikilinks
+					Connect ideas
+			
+			
+					Backlinks
+					Discover relationships
+			
+			
+					Graph View
+					Visualize your knowledge
+			
+			
+					Canvas
+					Visual brainstorming
+			
+			
+					Plugins
+					Extend functionality
+			
+	
+
+2. Installation
+Download from https://obsidian.md">
+<meta name="author" content="">
+<link rel="canonical" href="https://example.org/posts/obsidian-quick-guide/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://example.org/posts/obsidian-quick-guide/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://example.org/posts/obsidian-quick-guide/">
+  <meta property="og:site_name" content="Northbound Blog">
+  <meta property="og:title" content="Obsidian Quick Guide">
+  <meta property="og:description" content="Table of Contents Introduction Installation Interface Markdown Essentials Linking Knowledge Plugins &amp; Workflow Best Practices 1. Introduction Obsidian is a local-first knowledge management application built around Markdown files. Every note is stored as a plain .md file, ensuring your knowledge remains portable, future-proof, and independent of any proprietary cloud platform.
+[!NOTE] Your notes belong to you. Obsidian never locks your data into a proprietary format.
+Key Features Feature Benefit Local Markdown Own your data Wikilinks Connect ideas Backlinks Discover relationships Graph View Visualize your knowledge Canvas Visual brainstorming Plugins Extend functionality 2. Installation Download from https://obsidian.md">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-08-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-08-01T00:00:00+00:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Omar">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Obsidian Quick Guide">
+  <meta name="twitter:description" content="Table of Contents Introduction Installation Interface Markdown Essentials Linking Knowledge Plugins &amp; Workflow Best Practices 1. Introduction Obsidian is a local-first knowledge management application built around Markdown files. Every note is stored as a plain .md file, ensuring your knowledge remains portable, future-proof, and independent of any proprietary cloud platform.
+[!NOTE] Your notes belong to you. Obsidian never locks your data into a proprietary format.
+Key Features Feature Benefit Local Markdown Own your data Wikilinks Connect ideas Backlinks Discover relationships Graph View Visualize your knowledge Canvas Visual brainstorming Plugins Extend functionality 2. Installation Download from https://obsidian.md">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://example.org/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Obsidian Quick Guide",
+      "item": "https://example.org/posts/obsidian-quick-guide/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Obsidian Quick Guide",
+  "name": "Obsidian Quick Guide",
+  "description": "Table of Contents Introduction Installation Interface Markdown Essentials Linking Knowledge Plugins \u0026amp; Workflow Best Practices 1. Introduction Obsidian is a local-first knowledge management application built around Markdown files. Every note is stored as a plain .md file, ensuring your knowledge remains portable, future-proof, and independent of any proprietary cloud platform.\n[!NOTE] Your notes belong to you. Obsidian never locks your data into a proprietary format.\nKey Features Feature Benefit Local Markdown Own your data Wikilinks Connect ideas Backlinks Discover relationships Graph View Visualize your knowledge Canvas Visual brainstorming Plugins Extend functionality 2. Installation Download from https://obsidian.md\n",
+  "keywords": [
+    "blog", "omar"
+  ],
+  "articleBody": "Table of Contents Introduction Installation Interface Markdown Essentials Linking Knowledge Plugins \u0026 Workflow Best Practices 1. Introduction Obsidian is a local-first knowledge management application built around Markdown files. Every note is stored as a plain .md file, ensuring your knowledge remains portable, future-proof, and independent of any proprietary cloud platform.\n[!NOTE] Your notes belong to you. Obsidian never locks your data into a proprietary format.\nKey Features Feature Benefit Local Markdown Own your data Wikilinks Connect ideas Backlinks Discover relationships Graph View Visualize your knowledge Canvas Visual brainstorming Plugins Extend functionality 2. Installation Download from https://obsidian.md\nSupported platforms:\nWindows macOS Linux Android iOS Create a Vault, which is simply a folder containing your Markdown notes.\nExample:\nMy Vault/ ├── Inbox/ ├── Projects/ ├── Resources/ ├── Archive/ ├── Templates/ └── Attachments/ 3. User Interface Main components:\nFile Explorer Search Editor Backlinks Outgoing Links Properties Graph View Command Palette [!TIP] Learn Ctrl+P early. It gives instant access to almost every command.\n4. Markdown Essentials # Heading ## Heading **Bold** *Italic* - Bullet - [ ] Task \u003e Quote `inline code` Insert images:\n!![Image Description](/images/image.png) Insert links:\n[[My Note]] [[My Note|Custom Name]] 5. Building a Knowledge Graph Wikilinks Internal links connect notes into a network.\n[[Atomic Habits]] [[Programming]] [[Machine Learning]] Backlinks Backlinks automatically show every note that references the current note.\nGraph View Graph View visualizes your vault as an interactive knowledge graph.\nCanvas Canvas combines notes, PDFs, images, videos, and links on an infinite workspace.\n6. Plugins \u0026 Productivity Recommended Core Plugins:\nDaily Notes Templates Canvas Backlinks Bookmarks Recommended Community Plugins:\nPlugin Purpose Dataview Query notes Tasks Advanced task management Templater Dynamic templates Excalidraw Diagrams Kanban Project boards Calendar Planning Example Dataview:\nTABLE status\rFROM \"Projects\" 7. Best Practices [!TIP] Create small notes containing one idea each.\nRecommendations:\nPrefer links over folders. Use meaningful note titles. Review notes regularly. Use templates. Keep an Inbox folder. Store attachments separately. Tag sparingly. Keyboard Shortcuts Shortcut Action Ctrl+P Command Palette Ctrl+O Quick Switcher Ctrl+Shift+F Global Search Ctrl+N New Note Obsidian vs Notion Feature Obsidian Notion Offline Yes Limited Local Files Yes No Markdown Native Partial Plugins Extensive Limited Resources https://obsidian.md https://help.obsidian.md https://obsidian.md/plugins https://forum.obsidian.md Conclusion\nObsidian is more than a note-taking application. It is a personal knowledge management system that helps you connect ideas, build long-term knowledge, and maintain complete ownership of your information through plain Markdown files.\n",
+  "wordCount" : "392",
+  "inLanguage": "en",
+  "datePublished": "2026-08-01T00:00:00Z",
+  "dateModified": "2026-08-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.org/posts/obsidian-quick-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Northbound Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://example.org/" accesskey="h" title="Northbound Blog (Alt + H)">Northbound Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Obsidian Quick Guide
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-01 00:00:00 +0000 UTC'>August 1, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h2 id="table-of-contents">Table of Contents<a hidden class="anchor" aria-hidden="true" href="#table-of-contents">#</a></h2>
+<ol>
+<li>Introduction</li>
+<li>Installation</li>
+<li>Interface</li>
+<li>Markdown Essentials</li>
+<li>Linking Knowledge</li>
+<li>Plugins &amp; Workflow</li>
+<li>Best Practices</li>
+</ol>
+<h1 id="1-introduction">1. Introduction<a hidden class="anchor" aria-hidden="true" href="#1-introduction">#</a></h1>
+<p><img alt="Obsidian Logo|652" loading="lazy" src="https://obsidian.md/images/obsidian-logo-gradient.svg"></p>
+<p>Obsidian is a local-first knowledge management application built around Markdown files. Every note is stored as a plain <code>.md</code> file, ensuring your knowledge remains portable, future-proof, and independent of any proprietary cloud platform.</p>
+<blockquote>
+<p>[!NOTE]
+Your notes belong to you. Obsidian never locks your data into a proprietary format.</p>
+</blockquote>
+<h3 id="key-features">Key Features<a hidden class="anchor" aria-hidden="true" href="#key-features">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>Feature</th>
+					<th>Benefit</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Local Markdown</td>
+					<td>Own your data</td>
+			</tr>
+			<tr>
+					<td>Wikilinks</td>
+					<td>Connect ideas</td>
+			</tr>
+			<tr>
+					<td>Backlinks</td>
+					<td>Discover relationships</td>
+			</tr>
+			<tr>
+					<td>Graph View</td>
+					<td>Visualize your knowledge</td>
+			</tr>
+			<tr>
+					<td>Canvas</td>
+					<td>Visual brainstorming</td>
+			</tr>
+			<tr>
+					<td>Plugins</td>
+					<td>Extend functionality</td>
+			</tr>
+	</tbody>
+</table>
+<h1 id="2-installation">2. Installation<a hidden class="anchor" aria-hidden="true" href="#2-installation">#</a></h1>
+<p>Download from <a href="https://obsidian.md">https://obsidian.md</a></p>
+<p>Supported platforms:</p>
+<ul>
+<li>Windows</li>
+<li>macOS</li>
+<li>Linux</li>
+<li>Android</li>
+<li>iOS</li>
+</ul>
+<p>Create a <strong>Vault</strong>, which is simply a folder containing your Markdown notes.</p>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>My Vault/
+</span></span><span style="display:flex;"><span>├── Inbox/
+</span></span><span style="display:flex;"><span>├── Projects/
+</span></span><span style="display:flex;"><span>├── Resources/
+</span></span><span style="display:flex;"><span>├── Archive/
+</span></span><span style="display:flex;"><span>├── Templates/
+</span></span><span style="display:flex;"><span>└── Attachments/
+</span></span></code></pre></div><h1 id="3-user-interface">3. User Interface<a hidden class="anchor" aria-hidden="true" href="#3-user-interface">#</a></h1>
+<p><img alt="Interface" loading="lazy" src="https://help.obsidian.md/attachments/app-ui.png"></p>
+<p>Main components:</p>
+<ul>
+<li>File Explorer</li>
+<li>Search</li>
+<li>Editor</li>
+<li>Backlinks</li>
+<li>Outgoing Links</li>
+<li>Properties</li>
+<li>Graph View</li>
+<li>Command Palette</li>
+</ul>
+<blockquote>
+<p>[!TIP]
+Learn <code>Ctrl+P</code> early. It gives instant access to almost every command.</p>
+</blockquote>
+<h1 id="4-markdown-essentials">4. Markdown Essentials<a hidden class="anchor" aria-hidden="true" href="#4-markdown-essentials">#</a></h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-md" data-lang="md"><span style="display:flex;"><span># Heading
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Heading
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">**Bold**</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">*Italic*</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Bullet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> Task
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Quote
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">`inline code`</span>
+</span></span></code></pre></div><p>Insert images:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>!![<span style="color:#f92672">Image Description</span>](<span style="color:#a6e22e">/images/image.png</span>)
+</span></span></code></pre></div><p>Insert links:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>[[My Note]]
+</span></span><span style="display:flex;"><span>[[My Note|Custom Name]]
+</span></span></code></pre></div><h1 id="5-building-a-knowledge-graph">5. Building a Knowledge Graph<a hidden class="anchor" aria-hidden="true" href="#5-building-a-knowledge-graph">#</a></h1>
+<h2 id="wikilinks">Wikilinks<a hidden class="anchor" aria-hidden="true" href="#wikilinks">#</a></h2>
+<p>Internal links connect notes into a network.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>[[Atomic Habits]]
+</span></span><span style="display:flex;"><span>[[Programming]]
+</span></span><span style="display:flex;"><span>[[Machine Learning]]
+</span></span></code></pre></div><h2 id="backlinks">Backlinks<a hidden class="anchor" aria-hidden="true" href="#backlinks">#</a></h2>
+<p>Backlinks automatically show every note that references the current note.</p>
+<h2 id="graph-view">Graph View<a hidden class="anchor" aria-hidden="true" href="#graph-view">#</a></h2>
+<p><img alt="Graph" loading="lazy" src="https://help.obsidian.md/attachments/graph-view.png"></p>
+<p>Graph View visualizes your vault as an interactive knowledge graph.</p>
+<h2 id="canvas">Canvas<a hidden class="anchor" aria-hidden="true" href="#canvas">#</a></h2>
+<p><img alt="Canvas" loading="lazy" src="https://help.obsidian.md/attachments/canvas.png"></p>
+<p>Canvas combines notes, PDFs, images, videos, and links on an infinite workspace.</p>
+<h1 id="6-plugins--productivity">6. Plugins &amp; Productivity<a hidden class="anchor" aria-hidden="true" href="#6-plugins--productivity">#</a></h1>
+<p>Recommended Core Plugins:</p>
+<ul>
+<li>Daily Notes</li>
+<li>Templates</li>
+<li>Canvas</li>
+<li>Backlinks</li>
+<li>Bookmarks</li>
+</ul>
+<p>Recommended Community Plugins:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Plugin</th>
+					<th>Purpose</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Dataview</td>
+					<td>Query notes</td>
+			</tr>
+			<tr>
+					<td>Tasks</td>
+					<td>Advanced task management</td>
+			</tr>
+			<tr>
+					<td>Templater</td>
+					<td>Dynamic templates</td>
+			</tr>
+			<tr>
+					<td>Excalidraw</td>
+					<td>Diagrams</td>
+			</tr>
+			<tr>
+					<td>Kanban</td>
+					<td>Project boards</td>
+			</tr>
+			<tr>
+					<td>Calendar</td>
+					<td>Planning</td>
+			</tr>
+	</tbody>
+</table>
+<p>Example Dataview:</p>
+<pre tabindex="0"><code class="language-dataview" data-lang="dataview">TABLE status
+FROM &#34;Projects&#34;
+</code></pre><h1 id="7-best-practices">7. Best Practices<a hidden class="anchor" aria-hidden="true" href="#7-best-practices">#</a></h1>
+<blockquote>
+<p>[!TIP]
+Create small notes containing one idea each.</p>
+</blockquote>
+<p>Recommendations:</p>
+<ul>
+<li>Prefer links over folders.</li>
+<li>Use meaningful note titles.</li>
+<li>Review notes regularly.</li>
+<li>Use templates.</li>
+<li>Keep an Inbox folder.</li>
+<li>Store attachments separately.</li>
+<li>Tag sparingly.</li>
+</ul>
+<h2 id="keyboard-shortcuts">Keyboard Shortcuts<a hidden class="anchor" aria-hidden="true" href="#keyboard-shortcuts">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>Shortcut</th>
+					<th>Action</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Ctrl+P</td>
+					<td>Command Palette</td>
+			</tr>
+			<tr>
+					<td>Ctrl+O</td>
+					<td>Quick Switcher</td>
+			</tr>
+			<tr>
+					<td>Ctrl+Shift+F</td>
+					<td>Global Search</td>
+			</tr>
+			<tr>
+					<td>Ctrl+N</td>
+					<td>New Note</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="obsidian-vs-notion">Obsidian vs Notion<a hidden class="anchor" aria-hidden="true" href="#obsidian-vs-notion">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>Feature</th>
+					<th>Obsidian</th>
+					<th>Notion</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Offline</td>
+					<td>Yes</td>
+					<td>Limited</td>
+			</tr>
+			<tr>
+					<td>Local Files</td>
+					<td>Yes</td>
+					<td>No</td>
+			</tr>
+			<tr>
+					<td>Markdown</td>
+					<td>Native</td>
+					<td>Partial</td>
+			</tr>
+			<tr>
+					<td>Plugins</td>
+					<td>Extensive</td>
+					<td>Limited</td>
+			</tr>
+	</tbody>
+</table>
+<h1 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h1>
+<ul>
+<li><a href="https://obsidian.md">https://obsidian.md</a></li>
+<li><a href="https://help.obsidian.md">https://help.obsidian.md</a></li>
+<li><a href="https://obsidian.md/plugins">https://obsidian.md/plugins</a></li>
+<li><a href="https://forum.obsidian.md">https://forum.obsidian.md</a></li>
+</ul>
+<hr>
+<p><strong>Conclusion</strong></p>
+<p>Obsidian is more than a note-taking application. It is a personal knowledge management system that helps you connect ideas, build long-term knowledge, and maintain complete ownership of your information through plain Markdown files.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://example.org/tags/blog/">Blog</a></li>
+      <li><a href="https://example.org/tags/omar/">Omar</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://example.org/">Northbound Blog</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

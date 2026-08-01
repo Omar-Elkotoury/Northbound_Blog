@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Northbound Blog</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on Northbound Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian Quick Guide</title>
+      <link>https://example.org/posts/obsidian-quick-guide/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/obsidian-quick-guide/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction&lt;/li&gt;
+&lt;li&gt;Installation&lt;/li&gt;
+&lt;li&gt;Interface&lt;/li&gt;
+&lt;li&gt;Markdown Essentials&lt;/li&gt;
+&lt;li&gt;Linking Knowledge&lt;/li&gt;
+&lt;li&gt;Plugins &amp;amp; Workflow&lt;/li&gt;
+&lt;li&gt;Best Practices&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Obsidian Logo|652&#34; loading=&#34;lazy&#34; src=&#34;https://obsidian.md/images/obsidian-logo-gradient.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Obsidian is a local-first knowledge management application built around Markdown files. Every note is stored as a plain &lt;code&gt;.md&lt;/code&gt; file, ensuring your knowledge remains portable, future-proof, and independent of any proprietary cloud platform.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+Your notes belong to you. Obsidian never locks your data into a proprietary format.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Feature&lt;/th&gt;
+					&lt;th&gt;Benefit&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Local Markdown&lt;/td&gt;
+					&lt;td&gt;Own your data&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Wikilinks&lt;/td&gt;
+					&lt;td&gt;Connect ideas&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Backlinks&lt;/td&gt;
+					&lt;td&gt;Discover relationships&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Graph View&lt;/td&gt;
+					&lt;td&gt;Visualize your knowledge&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Canvas&lt;/td&gt;
+					&lt;td&gt;Visual brainstorming&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Plugins&lt;/td&gt;
+					&lt;td&gt;Extend functionality&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;2-installation&#34;&gt;2. Installation&lt;/h1&gt;
+&lt;p&gt;Download from &lt;a href=&#34;https://obsidian.md&#34;&gt;https://obsidian.md&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
